@@ -1,0 +1,52 @@
+.footer {
+  background-color: yellow;
+  border: 1px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Añadido para envolver los elementos en varias líneas */
+  justify-content: space-between;
+}
+
+.options {
+  font-size: 20px;
+  color: fuchsia;
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster", cursive;
+}
+
+.paragraf {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: fuchsia;
+  justify-content: center;
+  margin: 20px 25px;
+}
+
+.logo {
+  margin-left: 60px;
+  margin-right: 0%;
+  max-width: 150px;
+  justify-content: center;
+}
+
+.icon {
+  color: fuchsia;
+  font-size: 30px;
+  margin: 20px 25px;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas con un ancho máximo de 768px */
+  .footer {
+    flex-direction: column; /* Cambia la dirección a vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+
+  .paragraf {
+    margin: 10px; /* Reduce el margen para un mejor ajuste */
+  }
+}
+
+
+

@@ -1,0 +1,34 @@
+.inicio1 {
+    background-color: rgb(226, 226, 223);
+    border: 10px;
+    padding: 20px;
+    display: flex; 
+    grid-template-columns: 30px;
+    justify-content:space-between;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: fuchsia;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagenesContainer {
+    display: flex;
+}
+
+.imagenColumn {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 400px;
+    height: 400px;
+}

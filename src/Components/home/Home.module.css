@@ -1,0 +1,39 @@
+.inicio1 {
+    background-color: rgb(226, 226, 223);
+    border: 10px;
+    padding: 20px;
+    display: grid; /* Use grid layout for responsive design */
+    grid-template-columns: 1fr; /* By default, one column */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Center the grid items horizontally */
+  }
+  
+  .title {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: fuchsia;
+    text-align: center; /* Center the text */
+  }
+  
+  .imagenesContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to a new row if there's not enough space */
+  }
+  
+  .imagenColumn {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; /* Set a maximum width for the columns */
+  }
+  
+  .imagen {
+    max-width: 97%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
