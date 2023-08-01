@@ -15,10 +15,10 @@ function App() {
         <Header />
         <Routes>
           {/* Redirigir al usuario a la página de inicio */}
-          <Route path="/" element={<Navigate to="/De-sol-en-sol" />} />
+          <Route path="/" element={<Navigate to="" />} />
 
           {/* Rutas para las otras páginas */}
-          <Route path="/De-sol-en-sol" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/ropa" element={<Ropa />} />
           <Route path="/maquillaje" element={<Maquillaje />} />
           <Route path="/accesorios" element={<Accesorios />} />
