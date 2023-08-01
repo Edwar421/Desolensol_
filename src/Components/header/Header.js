@@ -13,7 +13,7 @@ const Header = () => {
             </div>
             <div className={style.options}>
                 <nav>
-                    <Link to="">Inicio</Link>
+                    <Link to="/De-sol-en-sol">Inicio</Link>
                     <Link to="/ropa">Ropa</Link>
                     <Link to="/maquillaje">Maquillaje</Link>
                     <Link to="/accesorios">Accesorios</Link>
