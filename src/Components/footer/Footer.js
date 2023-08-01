@@ -9,12 +9,6 @@ const Footer = () => {
                 <div>
                     <p className={style.paragraf}>Politica de envios</p>
                 </div>
-                <div>
-                    <p className={style.paragraf}>Politica de envios</p>
-                </div>
-                <div>
-                    <p className={style.paragraf}>Politica de envios</p>
-                </div>
             </div>
             <div>
                 <p className={style.paragraf}>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
